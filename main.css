@@ -385,7 +385,7 @@ section:nth-child(odd) {
 }
 
 .modal__img {
-    background: url("../img/modal-window.jpg") no-repeat center center / cover;
+    background: url("https://veronika0509.github.io/Portfolio/img/modal-window.jpg") no-repeat center center / cover;
     display: none;
     position: fixed;
     top: 50%;
