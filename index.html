@@ -1,0 +1,576 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>15 JavaScript</title>
+    <link rel="icon" type="image/png" href="img/favicon.jpg">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b423b04e56.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <!--  0  -->
+    <header class="header" id="header">
+        <div class="container">
+            <ul class="list">
+                <li>
+                    <a href="#color-flipper" class="list__item">color-flipper</a>
+                </li>
+                <li>
+                    <a href="#counter" class="list__item">counter</a>
+                </li>
+                <li>
+                    <a href="#reviews" class="list__item">reviews</a>
+                </li>
+                <li>
+                    <a href="#navbar" class="list__item">navbar</a>
+                </li>
+                <li>
+                    <a href="#sidebar" class="list__item">sidebar</a>
+                </li>
+                <li>
+                    <a href="#modal" class="list__item">modal</a>
+                </li>
+                <li>
+                    <a href="#questions" class="list__item">questions</a>
+                </li>
+                <li>
+                    <a href="#video" class="list__item">video</a>
+                </li>
+                <li>
+                    <a href="#scroll" class="list__item">scroll</a>
+                </li>
+                <li>
+                    <a href="#tabs" class="list__item">tabs</a>
+                </li>
+                <li>
+                    <a href="#timer" class="list__item">timer</a>
+                </li>
+                <li>
+                    <a href="#lorem" class="list__item">lorem</a>
+                </li>
+                <li>
+                    <a href="#slider" class="list__item">slider</a>
+                </li>
+                <li>
+                    <a href="#animations" class="list__item">animations</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <!--  1  -->
+    <section class="color-flipper" id="color-flipper">
+        <div class="container">
+            <h2 class="title">
+                color flipper
+            </h2>
+            <div class="project">
+                <div class="project__one">
+                    <div class="default flipper">
+                        <div class="flipper__container">
+                            <h3 class="default__title">curren color: <span class="flipper__color color-one">#f1f5f8</span></h3>
+                            <a href="#" class="flipper__btn btn" id="btn-one">click me</a>
+                        </div>
+                    </div>
+                    <div class="hex flipper">
+                        <div class="flipper__container">
+                            <h3 class="default__title">curren color: <span class="flipper__color color-two">#f1f5f8</span></h3>
+                            <a href="#" class="flipper__btn btn" id="btn-two">click me</a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#counter" class="arrow">
+                    <img src="img/down-arrow.png" alt="Arrow down">
+                </a>
+            </div>
+        </div>
+    </section>
+    <!--  2  -->
+    <section class="counter" id="counter">
+        <div class="container">
+            <h2 class="title">
+                Counter
+            </h2>
+            <div class="project">
+                <div class="project__two">
+                    <span id="value" class="counte">0</span>
+                    <div class="btn-container">
+                        <a class="btn count-btn decrease">decrease</a>
+                        <a class="btn count-btn reset">reset</a>
+                        <a class="btn count-btn increase">increase</a>
+                    </div>
+                </div>
+            </div>
+            <a href="#reviews" class="arrow arrow-counter">
+                <img src="img/down-arrow.png" alt="Arrow down">
+            </a>
+        </div>
+    </section>
+    <!--  3  -->
+    <section class="reviews" id="reviews">
+        <div class="container">
+            <h2 class="title">
+                Reviews
+            </h2>
+            <div class="project">
+                <div class="project__three">
+                    <div class="reviews__img">
+                        <img src="img/person-1.jpeg" alt="Person">
+                    </div>
+                    <h3 class="reviews__author h3">anna johnson</h3>
+                    <p class="reviews__job">web designer</p>
+                    <p class="reviews__info">
+                        Helvetica artisan kinfolk thundercats lumbersexual blue bottle.
+                        Disrupt glossier gastropub deep v vice franzen hell of brooklyn
+                        twee enamel pin fashion axe.photo booth jean shorts artisan narwhal.
+                    </p>
+                    <div class="arrows">
+                        <a class="arrows__prev-btn"><img class="arrows__img" src="img/left-arrow.png" alt="Prev arrow"></a>
+                        <a class="arrows-btn arrows__surprise-btn">surprise me</a>
+                        <a class="arrows__next-btn"><img class="arrows__img" src="img/next.png" alt="Next arrow"></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#navbar" class="arrow review__arrow">
+                <img src="img/down-arrow.png" alt="Arrow down">
+            </a>
+        </div>
+    </section>
+    <!--  4  -->
+    <section class="navbar" id="navbar">
+        <div class="container">
+            <h2 class="title">
+                navbar
+            </h2>
+            <div class="project">
+                <a class="navbar__img">
+                    <img src="img/menu.png" alt="Burger">
+                </a>
+                <div class="margin">
+                    <ul class="navbar__list navbar__list_margin">
+                        <li class="navbar__item">home</li>
+                        <li class="navbar__item">about us</li>
+                        <li class="navbar__item">number</li>
+                    </ul>
+                    <ul class="navbar__list">
+                        <li class="navbar__item">projects</li>
+                        <li class="navbar__item">contacts</li>
+                        <li class="navbar__item">another</li>
+                    </ul>
+                </div>
+            </div>
+            <a href="#sidebar" class="arrow">
+                <img src="img/down-arrow.png" alt="Arrow down">
+            </a>
+        </div>
+    </section>
+    <!--  5  -->
+    <section class="sidebar-project" id="sidebar">
+        <div class="container">
+            <h2 class="title">
+                sidebar
+            </h2>
+            <div class="project">
+                <div class="project__five">
+                    <div class="sidebar">
+                        <div class="sidebar__close">
+                            <img src="img/close.png" alt="Close">
+                        </div>
+                        <ul class="sidebar__list">
+                            <li class="sidebar__item">home</li>
+                            <li class="sidebar__item">about us</li>
+                            <li class="sidebar__item">projects</li>
+                            <li class="sidebar__item">contacts</li>
+                        </ul>
+                    </div>
+                    <div class="burger">
+                        <img src="img/menu.png" alt="Burger">
+                    </div>
+                </div>
+            </div>
+            <a href="#modal" class="arrow">
+                <img src="img/down-arrow.png" alt="Arrow down">
+            </a>
+        </div>
+    </section>
+    <!--  6  -->
+    <section class="modal" id="modal">
+        <div class="container">
+            <h2 class="title">
+                modal window
+            </h2>
+            <div class="project">
+                <div class="modal-project">
+                    <a href="#" class="modal__btn-open btn">open modal</a>
+                    <div class="modal__img">
+                        <div class="modal__window"></div>
+                        <a href="#" class="modal__btn-close">close modal</a>
+                    </div>
+                </div>
+            </div>
+            <a href="#questions" class="arrow">
+                <img src="img/down-arrow.png" alt="Arrow down">
+            </a>
+        </div>
+    </section>
+    <!--  7  -->
+    <section class="questions">
+        <div class="container">
+            <div class="title">
+                <h2 class="">questions</h2>
+            </div>
+            <div class="section-center">
+                <article class="question">
+                    <div class="question-title">
+                        <p>do you accept all major credit cards?</p>
+                        <button type="button" class="question-btn">
+                            <span class="plus-icon">
+                                <i class="far fa-plus-square"></i>
+                            </span>
+                            <span class="minus-icon">
+                                <i class="far fa-minus-square"></i>
+                            </span>
+                        </button>
+                    </div>
+                    <div class="question-text">
+                        <p>Lorem ipsum dolor sit amet,
+                            consectetur adipisicing elit.
+                            Alias amet cum doloribus impedit
+                            minus odit quos recusandae ullam ut
+                            vero?
+                        </p>
+                    </div>
+                </article>
+                <article class="question">
+                    <div class="question-title">
+                        <p>do you suppport local farmers?</p>
+                        <button type="button" class="question-btn">
+                            <span class="plus-icon">
+                                <i class="far fa-plus-square"></i>
+                            </span>
+                            <span class="minus-icon">
+                                <i class="far fa-minus-square"></i>
+                            </span>
+                        </button>
+                    </div>
+                    <div class="question-text">
+                        <p>Lorem ipsum dolor sit amet,
+                            consectetur adipisicing elit.
+                            Alias amet cum doloribus impedit
+                            minus odit quos recusandae ullam ut
+                            vero?</p>
+                    </div>
+                </article>
+                <article class="question">
+                    <div class="question-title">
+                        <p>do you use organic ingredients?</p>
+                        <button type="button" class="question-btn">
+                            <span class="plus-icon">
+                                <i class="far fa-plus-square"></i>
+                            </span>
+                            <span class="minus-icon">
+                                <i class="far fa-minus-square"></i>
+                            </span>
+                        </button>
+                    </div>
+                    <div class="question-text">
+                        <p>Lorem ipsum dolor sit amet,
+                            consectetur adipisicing elit.
+                            Alias amet cum doloribus impedit
+                            minus odit quos recusandae ullam ut
+                            vero?</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+    <!--  8  -->
+    <section class="video" id="video">
+        <div class="container">
+            <h2 class="video__title title">
+                Video
+            </h2>
+            <div class="project">
+                <div class="video-container">
+                    <video id="myvideotag" class="video-container" muted autoplay loop>
+                        <source src="img/video.mp4" type="video/mp4"/>
+                    </video>
+                </div>
+                <div class="video__btn-container">
+                    <a class="video__btn pause btn">pause</a>
+                    <a class="video__btn play btn">play</a>
+                </div>
+                <a href="#scroll" class="arrow">
+                    <img src="img/down-arrow.png" alt="Arrow down">
+                </a>
+            </div>
+        </div>
+    </section>
+    <!--  9  -->
+    <section class="tabs" id="tabs">
+        <div class="container">
+            <h2 class="title">
+                tabs project
+            </h2>
+            <div class="project">
+                <div class="tabs-container">
+                    <div class="tabs-tabs">
+                        <p data-tab="one-tab" class="tabs-tabs__one active tabs-tabs-item">
+                            one
+                        </p>
+                        <p data-tab="two-tab" class="tabs-tabs__two tabs-tabs-item">
+                            two
+                        </p>
+                        <p data-tab="three-tab" class="tabs-tabs__three tabs-tabs-item">
+                            three
+                        </p>
+                    </div>
+                    <div class="tabs-content">
+                        <p id="one-tab" class="tabs-content__one active tabs-content-item">
+                            Lorem ipsum dolor sit 1 amet,
+                            consectetur 1 adipisicing elit.
+                            At eius 1 explicabo laboriosam, 1
+                            maxime minus 1 necessitatibus officia 1
+                            officiis tempore tenetur 1 voluptatum? 1
+                        </p>
+                        <p id="two-tab" class="tabs-content__two tabs-content-item">
+                            Lorem ipsum dolor sit 2 amet,
+                            consectetur 2 adipisicing elit.
+                            At eius 2 explicabo laboriosam, 2
+                            maxime minus 2 necessitatibus officia 2
+                            officiis tempore tenetur 2 voluptatum? 2
+                        </p>
+                        <p id="three-tab" class="tabs-content__three tabs-content-item">
+                            Lorem ipsum dolor sit 3 amet,
+                            consectetur 3 adipisicing elit.
+                            At eius 3 explicabo laboriosam, 3
+                            maxime minus 3 necessitatibus officia 3
+                            officiis tempore tenetur 3 voluptatum? 3
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <a href="#timer" class="arrow">
+                <img src="img/down-arrow.png" alt="Arrow down">
+            </a>
+        </div>
+    </section>
+    <!--  10  -->
+    <section class="timer" id="timer">
+        <div class="container">
+            <h2 class="title">
+                countdown timer
+            </h2>
+            <div class="project">
+                <div class="timer-container">
+                    <h3 class="timer__title"></h3>
+                    <div class="timer__time">
+                        <div class="timer-item">
+                            <p class="timer-item__count timer-item__count-days">34</p>
+                            <p class="timer-item__noun">days</p>
+                        </div>
+                        <div class="timer-item">
+                            <p class="timer-item__count  timer-item__count-hours">34</p>
+                            <p class="timer-item__noun">hours</p>
+                        </div>
+                        <div class="timer-item">
+                            <p class="timer-item__count  timer-item__count-mins">34</p>
+                            <p class="timer-item__noun">mins</p>
+                        </div>
+                        <div class="timer-item">
+                            <p class="timer-item__count  timer-item__count-secs">34</p>
+                            <p class="timer-item__noun">secs</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#slider" class="arrow">
+                <img src="img/down-arrow.png" alt="Arrow down">
+            </a>
+        </div>
+    </section>
+    <!--  11  -->
+    <section class="slider" id="slider">
+        <div class="container">
+            <h2 class="title">
+               slider
+            </h2>
+            <div class="project">
+                <div class="slider-container">
+                    <div class="slider-imgs">
+                        <a class="slider-arrow slide-prev"><i class="fa-solid fa-angle-left"></i></a>
+                        <img class="slider__item active" src="img/slider-1.jpg" alt="Slide">
+                        <img class="slider__item" src="img/slider-2.jpg" alt="Slide">
+                        <img class="slider__item" src="img/slider-3.jpg" alt="Slide">
+                        <a class="slider-arrow slide-next"><i class="fa-solid fa-angle-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#animations" class="arrow">
+                <img src="img/down-arrow.png" alt="Arrow down">
+            </a>
+        </div>
+    </section>
+
+
+    <section class="animations" id="animations">
+        <div class="container">
+            <h2 class="title">
+                animations
+            </h2>
+            <div class="projects">
+                <div class="anim-cool-btn">
+                    <a href="#" class="anim-button">
+                        <span class="button__line button__line_top"></span>
+                        <span class="button__line button__line_right"></span>
+                        <span class="button__line button__line_bottom"></span>
+                        <span class="button__line button__line_left"></span>
+                        Neon Button
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="lies">
+        <div class="container">
+            <div class="anim-d3">
+                <img src="img/iphone.jpg" alt="Iphone">
+                <img src="img/iphone.jpg" alt="Iphone">
+                <img src="img/iphone.jpg" alt="Iphone">
+                <img src="img/iphone.jpg" alt="Iphone">
+            </div>
+        </div>
+    </section>
+    <section class="d3-card">
+        <div class="container">
+            <div class="anim-wrap">
+                <div class="anim-card">
+                    <div class="front"><span>front</span></div>
+                    <div class="back"><span>back</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio">
+        <div class="container">
+            <div class="portfolio__wrap">
+                <div class="portfolio__container">
+                    <div class="portfolio__cards">
+                        <img src="https://codyhouse.co/demo/3d-animated-mockup/img/cd-app-image.png" alt="Карточка">
+                    </div>
+                    <div class="portfolio__cards">
+                        <img src="https://codyhouse.co/demo/3d-animated-mockup/img/cd-app-image.png" alt="Карточка">
+                    </div>
+                    <div class="portfolio__cards">
+                        <img src="https://codyhouse.co/demo/3d-animated-mockup/img/cd-app-image.png" alt="Карточка">
+                    </div>
+                    <div class="portfolio__cards">
+                        <img src="https://codyhouse.co/demo/3d-animated-mockup/img/cd-app-image.png" alt="Карточка">
+                    </div>
+                    <div class="portfolio__cards">
+                        <img src="https://codyhouse.co/demo/3d-animated-mockup/img/cd-app-image.png" alt="Карточка">
+                    </div>
+                    <div class="portfolio__cards">
+                        <img src="https://codyhouse.co/demo/3d-animated-mockup/img/cd-app-image.png" alt="Карточка">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="icons">
+        <div class="container">
+            <div class="icons-project">
+                <div class="icon instagram"><i class="fa-brands fa-instagram"></i></div>
+                <div class="icon facebook"><i class="fa-brands fa-facebook-f"></i></div>
+                <div class="icon twitter"><i class="fa-brands fa-twitter"></i></div>
+                <div class="icon whatsapp"><i class="fa-brands fa-whatsapp"></i></div>
+                <div class="icon google"><i class="fa-brands fa-google"></i></div>
+            </div>
+        </div>
+    </section>
+    <section class="glare">
+        <div class="container">
+            <div class="glare__container">
+                <a href="#" class="glare__btn">I am - button</a>
+            </div>
+        </div>
+    </section>
+    <section class="dashed" id="dashed">
+        <div class="container">
+            <div class="dashed__container">
+                Hover
+                <svg class="dashed__svg" width="130" height="65" viewBox="0 0 130 65" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="0" y="0" fill="none" width="130" height="65"/>
+                </svg>
+            </div>
+        </div>
+    </section>
+    <section class="menu" id="menu">
+        <div class="container">
+            <div class="menu__container">
+                <a href="#" class="menu__btn">
+                    <span class="menu__line"></span>
+                </a>
+                <a href="#" class="menu__btn">
+                    <span class="menu__line"></span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="burger-menu" id="burger-menu">
+        <div class="container">
+            <div class="burger-menu-project">
+                <div class="burger-menu__block">
+                    <a href="#" class="burger-menu__btn">
+                        <span class="burger-menu__line"></span>
+                    </a>
+                    <div class="burger-icons">
+                        <a href="#" class="burger-icons__icon">
+                            <i class="fa-solid fa-house-chimney"></i>
+                        </a>
+                        <a href="#" class="burger-icons__icon">
+                            <i class="fas fa-images"></i>
+                        </a>
+                        <a href="#" class="burger-icons__icon">
+                            <i class="fa-solid fa-address-card"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="nav-menu" id="nav-menu">
+        <div class="container">
+            <div class="nav-menu__container">
+                <div class="nav-menu__block">
+                    <div class="nav-menu__list">
+                        <a href="#" class="nav-menu__item">home</a>
+                        <a href="#" class="nav-menu__item">portfolio</a>
+                        <a href="#" class="nav-menu__item">about</a>
+                        <a href="#" class="nav-menu__item">contacts</a>
+                    </div>
+                    <a href="#" class="nav-menu__btn">
+                        <span class="nav-menu__line"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="responsive" id="responsive">
+        <div class="container">
+            <div class="respon__container">
+                <div class="respon__phone respon-item"></div>
+                <div class="respon__tablet respon-item"></div>
+                <div class="respon__desktop respon-item"></div>
+            </div>
+            <h2 class="respon__title">адаптивная верстка</h2>
+        </div>
+    </section>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
