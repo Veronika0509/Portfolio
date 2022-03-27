@@ -277,7 +277,7 @@ const weekdays = [
 const timerText = document.querySelector('.timer__title')
 const times = document.querySelectorAll('.timer-item__count')
 
-const futureDate = new Date(2022,2,26,0,0,0,1)
+const futureDate = new Date(2022,11,26,0,0,0,1)
 
 const timerYear = futureDate.getFullYear()
 const timerMonth = months[futureDate.getMonth()]
